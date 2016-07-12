@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GeneralLibGit.iml" filepath="$PROJECT_DIR$/GeneralLibGit.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/testlib/testlib.iml" filepath="$PROJECT_DIR$/testlib/testlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app.photolib/app.photolib.iml" filepath="$PROJECT_DIR$/app.photolib/app.photolib.iml" />
     </modules>
   </component>
 </project>
