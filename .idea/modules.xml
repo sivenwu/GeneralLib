@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/GeneralLib.iml" filepath="$PROJECT_DIR$/GeneralLib.iml" />
       <module fileurl="file://$PROJECT_DIR$/GeneralLibGit.iml" filepath="$PROJECT_DIR$/GeneralLibGit.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/app.httplib/app.httplib.iml" filepath="$PROJECT_DIR$/app.httplib/app.httplib.iml" />
       <module fileurl="file://$PROJECT_DIR$/app.photolib/app.photolib.iml" filepath="$PROJECT_DIR$/app.photolib/app.photolib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app.utillib/app.utillib.iml" filepath="$PROJECT_DIR$/app.utillib/app.utillib.iml" />
     </modules>
   </component>
 </project>
