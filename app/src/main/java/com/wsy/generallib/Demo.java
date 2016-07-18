@@ -3,11 +3,11 @@ package com.wsy.generallib;
 import android.app.Activity;
 import android.os.Bundle;
 
+import com.nostra13.universalimageloader.utils.L;
 import com.wsy.generallib.model.BaiduMode;
 
 import cn.wsy.httplib.HttpClientUtil;
 import cn.wsy.httplib.HttpRespondResult;
-import cn.wsy.httplib.RequestEnetity;
 import cn.wsy.httplib.base.HttpMethod;
 
 /**
@@ -24,11 +24,11 @@ public class Demo extends Activity{
     }
 
     public void demoForHttp(){
-        HttpClientUtil.SEND(HttpMethod.POST, this, new RequestEnetity(new BaiduMode("wusy1", "wusy2"),false)
+        HttpClientUtil.SEND(HttpMethod.POST_JSON, this,new BaiduMode("wusy1", "wusy2")
                 , new HttpRespondResult() {
                     @Override
                     public void onSuccess(String content) {
-
+                        L.i("wusy "+content);
                     }
 
                     @Override

@@ -13,6 +13,7 @@ import java.io.UnsupportedEncodingException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
+import cn.wsy.httplib.base.BaseEnetity;
 import cn.wsy.httplib.base.HttpMethod;
 import cn.wsy.httplib.utils.NetWorkUtil;
 import cz.msebera.android.httpclient.Header;
@@ -38,46 +39,57 @@ public class HttpClientUtil {
 //        httpClient.setThreadPool(createDefaThreadPool());
 //    }
 
-    private static AsyncHttpClient checkHttpClient(){
+    private static AsyncHttpClient checkHttpClient() {
         if (httpClient == null) {
-            httpClient = new AsyncHttpClient(true,80,443);//https
+            httpClient = new AsyncHttpClient(true, 80, 443);//https
             httpClient.setTimeout(TIME_OUT);
             httpClient.setThreadPool(createDefaThreadPool());
         }
         return httpClient;
     }
 
-    private static ExecutorService createDefaThreadPool(){
-        if (mExecutorService == null){
+    private static ExecutorService createDefaThreadPool() {
+        if (mExecutorService == null) {
             mExecutorService = Executors.newFixedThreadPool(THREAD_POOL_NUM);
         }
         return mExecutorService;
     }
 
-    public static void SEND(HttpMethod httpMethod,Context mContext, RequestEnetity entity, HttpRespondResult callback) {
-        if (!NetWorkUtil.isNetworkAvailable(mContext)) {
-            Log.i("wusy","网络暂时无法连接");
-            callback.onAfterViewAction();
-            return;
-        }
-        if (httpMethod.toString().equals("POST")) {
-            POST(mContext,entity.getRequestURL(), entity, callback);
-        } else if (httpMethod.toString().equals("GET")) {
-            GET(mContext,entity.getRequestURL(), entity, callback);
+    public static void SEND(HttpMethod httpMethod, Context mContext, BaseEnetity entity, HttpRespondResult callback) {
+        RequestEnetity requestEnetity = null;
+        if (entity != null) {
+            if (httpMethod.toString().equals(HttpMethod.GET_JSON.toString()) || httpMethod.toString().equals(HttpMethod.POST_JSON.toString())) {
+                requestEnetity = new RequestEnetity(entity, true);
+            }else{
+                requestEnetity = new RequestEnetity(entity, false);
+            }
+            if (!NetWorkUtil.isNetworkAvailable(mContext)) {
+                Log.i("wusy", "网络暂时无法连接");
+                callback.onAfterViewAction();
+                return;
+            }
+            if (httpMethod.toString().equals("POST")||httpMethod.toString().equals("POST_JSON")) {
+                POST(mContext, requestEnetity.getRequestURL(), requestEnetity, callback);
+            } else if (httpMethod.toString().equals("GET")||httpMethod.toString().equals("GET_JSON")) {
+                GET(mContext, requestEnetity.getRequestURL(), requestEnetity, callback);
+            }
+
+        }else{
+            Log.i("wusy", "请求参数为null");
         }
 
     }
 
-    private static void POST(Context context,String url, RequestEnetity entity, final HttpRespondResult callback) {
+    private static void POST(Context context, String url, RequestEnetity entity, final HttpRespondResult callback) {
         if (isJSON(entity)) {
             try {
                 String json = fiterURLFromJSON((String) entity.getRequestParam());
                 StringEntity stringEntity = new StringEntity(json);
-                checkHttpClient().post(context,url, stringEntity, CONTENT_TYPE, new TextHttpResponseHandler() {
+                checkHttpClient().post(context, url, stringEntity, CONTENT_TYPE, new TextHttpResponseHandler() {
 
                     @Override
                     public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
-                        callback.onFailure(throwable,responseString);
+                        callback.onFailure(throwable, responseString);
                     }
 
                     @Override
@@ -107,7 +119,7 @@ public class HttpClientUtil {
             checkHttpClient().post(url, params, new TextHttpResponseHandler() {
                 @Override
                 public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
-                    callback.onFailure(throwable,responseString);
+                    callback.onFailure(throwable, responseString);
                 }
 
                 @Override
@@ -131,16 +143,16 @@ public class HttpClientUtil {
         }
     }
 
-    private static void GET(Context context,String url, RequestEnetity entity, final HttpRespondResult callback) {
+    private static void GET(Context context, String url, RequestEnetity entity, final HttpRespondResult callback) {
         if (isJSON(entity)) {
             try {
                 String json = fiterURLFromJSON((String) entity.getRequestParam());
                 StringEntity stringEntity = new StringEntity(json);
-                checkHttpClient().get(context,url, stringEntity, CONTENT_TYPE, new TextHttpResponseHandler() {
+                checkHttpClient().get(context, url, stringEntity, CONTENT_TYPE, new TextHttpResponseHandler() {
 
                     @Override
                     public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
-                        callback.onFailure(throwable,responseString);
+                        callback.onFailure(throwable, responseString);
                     }
 
                     @Override
@@ -170,7 +182,7 @@ public class HttpClientUtil {
             checkHttpClient().get(url, params, new TextHttpResponseHandler() {
                 @Override
                 public void onFailure(int statusCode, Header[] headers, String responseString, Throwable throwable) {
-                    callback.onFailure(throwable,responseString);
+                    callback.onFailure(throwable, responseString);
                 }
 
                 @Override
@@ -199,16 +211,16 @@ public class HttpClientUtil {
         return obj instanceof String ? true : false;
     }
 
-    private static String fiterURLFromJSON(String params){
+    private static String fiterURLFromJSON(String params) {
         JSONObject jsonObject = JSON.parseObject(params);
         if (jsonObject.containsKey("ruqestURL"))
-        jsonObject.remove("ruqestURL");
+            jsonObject.remove("ruqestURL");
         return jsonObject.toString();
     }
 
-    private static RequestParams fiterURLFromRequestParams(RequestParams params){
+    private static RequestParams fiterURLFromRequestParams(RequestParams params) {
         if (params.has("ruqestURL"))
-        params.remove("ruqestURL");
+            params.remove("ruqestURL");
         return params;
     }
 

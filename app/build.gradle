@@ -25,5 +25,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile project(':app.photolib')
     compile project(':app.httplib')
-    compile project(':app.utilb')
+//    compile project(':app.utilb')
 }

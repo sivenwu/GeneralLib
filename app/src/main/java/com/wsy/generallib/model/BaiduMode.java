@@ -7,7 +7,7 @@ public class BaiduMode extends BaseMessage{
 
     @Override
     public String getRuqestURL() {
-        return "http://www.baidu.com";
+        return "http://192.168.244.3:8090/CuriosityWeb/servlet/getMainSourceServlet";
     }
 
     private String value1;
