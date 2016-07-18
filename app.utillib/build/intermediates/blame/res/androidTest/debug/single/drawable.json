@@ -60,12 +60,12 @@
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background_light.xml",
-        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
-    },
-    {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_tab_indicator_material.xml",
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_dialog_material_background_light.xml",
+        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_dialog_material_background_light.xml"
     },
     {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_list_selector_holo_dark.xml",
