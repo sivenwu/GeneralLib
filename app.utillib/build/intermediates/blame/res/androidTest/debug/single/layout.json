@@ -36,12 +36,12 @@
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media_narrow.xml",
-        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media_narrow.xml"
     },
     {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
@@ -68,12 +68,12 @@
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
-    },
-    {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_big_media.xml",
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_menu_item_layout.xml",
@@ -92,16 +92,16 @@
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_search_view.xml"
     },
     {
+        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_up_container.xml",
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_singlechoice_material.xml",
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_singlechoice_material.xml"
-    },
-    {
-        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_list_menu_item_radio.xml",
@@ -132,19 +132,19 @@
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
-    },
-    {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\notification_template_part_time.xml",
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\layout\\select_dialog_item_material.xml"
     }
 ]

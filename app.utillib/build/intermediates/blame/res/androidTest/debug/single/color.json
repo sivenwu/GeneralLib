@@ -12,20 +12,20 @@
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_secondary_text_material_dark.xml",
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color\\abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_material_dark.xml",
+        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color\\abc_primary_text_material_dark.xml"
     },
     {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_dark.xml",
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color\\switch_thumb_material_dark.xml"
+    },
+    {
+        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\switch_thumb_material_light.xml",
+        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\color\\switch_thumb_material_light.xml"
     },
     {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
