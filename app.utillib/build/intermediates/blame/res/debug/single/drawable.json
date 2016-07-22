@@ -52,6 +52,10 @@
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
+        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\debug\\drawable\\none_image_defalut.png",
+        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\GeneralLibGit\\app.photolib\\unspecified\\res\\drawable\\none_image_defalut.png"
+    },
+    {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_borderless_material.xml"
     },

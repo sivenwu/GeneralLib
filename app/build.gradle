@@ -23,7 +23,4 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
-    compile project(':app.photolib')
-    compile project(':app.httplib')
-    compile project(':app.utillib')
 }

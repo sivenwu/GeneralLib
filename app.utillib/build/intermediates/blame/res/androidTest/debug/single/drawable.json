@@ -20,6 +20,10 @@
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
+        "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\none_image_defalut.png",
+        "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\GeneralLibGit\\app.photolib\\unspecified\\res\\drawable\\none_image_defalut.png"
+    },
+    {
         "merged": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\abc_btn_radio_material.xml",
         "source": "E:\\WorkSpace\\MySvnProject\\Android\\GeneralLibGit\\app.utillib\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.4.0\\res\\drawable\\abc_btn_radio_material.xml"
     },
