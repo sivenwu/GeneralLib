@@ -25,6 +25,4 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.loopj.android:android-async-http:1.4.9'
     compile 'com.alibaba:fastjson:1.2.13'
-    compile project(':app.photolib')
-    compile project(':app.utillib')
 }
