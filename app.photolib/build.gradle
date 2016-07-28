@@ -8,7 +8,7 @@ ext {
 
     publishedGroupId = 'cn.yuancloud.generallib'
     libraryName = 'GeneralLib'
-    artifact = 'general-lib'
+    artifact = 'app.photolib'
 
     libraryDescription = 'thanks to use'
 
