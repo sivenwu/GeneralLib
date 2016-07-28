@@ -2,6 +2,35 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 group='com.github.YuanClouds'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'general-lib'
+
+    publishedGroupId = 'cn.yuancloud.generallib'
+    libraryName = 'GeneralLib'
+    artifact = 'general-lib'
+
+    libraryDescription = 'thanks to use'
+
+    siteUrl = 'https://github.com/YuanClouds/GeneralLib'
+    gitUrl = 'https://github.com/YuanClouds/GeneralLib.gitt'
+
+    libraryVersion = '1.3.7'
+
+    developerId = 'yuanCloud'
+    developerName = 'wusy'
+    developerEmail = 'sy.wu.chn@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+    licenses = ['Apache-2.0']
+}
+
+tasks.withType(Javadoc) {
+    options.encoding = "UTF-8"
+}
+
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
@@ -26,3 +55,6 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.4.0'
     compile 'com.nostra13.universalimageloader:universal-image-loader:1.9.5'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
